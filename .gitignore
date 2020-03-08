@@ -1,0 +1,70 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+*.xcarchive
+*/platforms/ios/build/
+*/platforms/ios/cordova/build
+*/platforms/ios/www/
+*/platforms/ios/cordova/console.log
+*/platforms/ios/Pods/
+*.xcuserdatad
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+google-services.json
+*/platforms/android/assets/www
+*/platforms/android/app/src/main/assets/www
+*/platforms/android/bin
+*/platforms/android/gen
+*/platforms/android/local.properties
+*/platforms/android/CordovaLib/bin
+*/platforms/android/CordovaLib/gen
+*/platforms/android/CordovaLib/local.properties
+*/platforms/android/cordova/build
+
+# res
+*/resources/signing
+*/plugins/
+*/Plugins/
+
+# node.js
+#
+npm-debug.log
+yarn-error.log
+node_modules/
+*/node_modules/
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+node_modules
+.DS_Store
+platforms
+plugins
+.cache
